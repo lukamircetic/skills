@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voice Orchestrator"
+  short_description: "Dispatch and monitor visible Codex tasks"
+  default_prompt: "Use $orchestrate-voice-work to run this Voice chat as an orchestration-only controller."
