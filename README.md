@@ -17,7 +17,8 @@ Or run the bundled installer directly:
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo lukamircetic/skills \
-  --path skills/orchestrate-voice-work
+  --path skills/orchestrate-voice-work \
+  --method git
 ```
 
 Start a new Codex task after installation so the skill catalog refreshes. Then invoke it with `$orchestrate-voice-work`, or say **“Start conductor mode.”** During capture, say **“Dispatch that”** when the brief is ready.
